@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>510-10</title>
+    <style>
+        p, h1,h3,h2,h5,p.fix2 {
+            color: #944eeb;
+        }
+
+        p.box {
+            color: #fff;
+            background-color: #0029ff;
+            padding: 30px;
+            font-size: xxx-large;
+        }
+
+        @media screen and (max-width:699px) {
+
+            p,
+            h3,
+            h2,
+            h5 {
+                font-family: 'Kanit', sans-serif;
+            }
+
+            p.box {
+                background-color: #008000;
+                font-size: 18px;
+            }
+
+            p.fix2,
+            h3,
+            h2,
+            h5 {
+                color: #0029ff;
+            }
+        }
+
+        @media screen and (min-width:780px) and (max-width:999px) {
+            p.box {
+                background-color: #ed23ff;
+                font-size: 18px;
+            }
+
+            p.fix2,
+            h3,
+            h2,
+            h5 {
+                color: #ff6200;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h3>ให้นักเรียนเขียนโครงสร้าง HTML&CSS Responsive Webdesign</h3>
+    <p class="box">ชื่อ-นามสกุล</p>
+    <h2>ชื่อตัวเอง..................</h2>
+    <p class="fix2">ชั้น.......เลขที่..........</p>
+</body>
+
+</html>
